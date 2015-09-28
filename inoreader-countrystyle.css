@@ -1,0 +1,50 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("inoreader.com") {
+
+  body {
+    font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif!important;
+
+  }
+  .article_card {
+    background-color: #F6F4EC!important;
+  }
+
+  .article_card div.article_full_contents  {
+    background-color: #F6F4EC!important;
+  }
+
+  .article_card div.article_tags_inner  {
+    background-color: #FFF!important;
+  }
+
+  .article_content {
+    font-size:16px !important;
+    line-height:200%;
+    background-color: #F6F4EC!important;
+    width:98% !important;
+    max-width:inherit!important;
+
+  }
+
+  .article_title_link {
+    font-weight: bold !important; font-size:20px !important;
+  }
+
+  .article_tags_inner {
+    width:96% !important;
+    margin-left: -3px !important;
+    padding-right: 3px !important;
+  }
+
+  .article_footer {
+    width:95% !important;
+  }
+
+  .block_article_ad, .ad_title, .avs_iframe, #sinner_container {
+    display: none !important;
+  }
+
+  .reader_pane_sinner {
+    padding-right: 0  !important;
+  }
+}
