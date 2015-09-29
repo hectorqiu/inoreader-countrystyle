@@ -9,10 +9,14 @@ inoreader-countrystyle 是一个针对 [InoReader](https://www.inoreader.com/) �
 ## 内容:
 根据个人阅读风格，喜欢大字号、土土的背景、扩展内容宽度、隐藏广告
 
-请在官方 “Light Theme”、“Extended View” 模式下使用
+请在官方 “Light Theme”、“Extended View” / “Column View” 模式下使用
 
 
 ## Changelog
+
+#### 2015-09-29 v 0.2
+
+1. 加入支持 Column View 模式
 
 #### 2015-09-29 v 0.1
 
