@@ -1,7 +1,7 @@
 inoreader-countrystyle
 ========
 
-inoreader-countrystyle 是一个针对 [InoReader](https://www.inoreader.com/) 专门为提高阅读效率而调整的自定义样式。  
+inoreader-countrystyle 是一个针对 [InoReader](https://www.inoreader.com/) 专门为提高阅读效率而调整的自定义样式。
 
 请配合 Stylish 使用，样式下载链接: [inoreader - 乡土风](https://userstyles.org/styles/119240/inoreader)
 
@@ -13,6 +13,10 @@ inoreader-countrystyle 是一个针对 [InoReader](https://www.inoreader.com/) �
 
 
 ## Changelog
+
+#### 2015-09-30 v 0.3
+1. 固定 "Column View" 模式下文章列表的宽度，流出更多空间给文章内容
+2. 修复分享按钮被隐藏的 BUG
 
 #### 2015-09-29 v 0.2
 
