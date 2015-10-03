@@ -14,6 +14,10 @@ inoreader-countrystyle 是一个针对 [InoReader](https://www.inoreader.com/) �
 
 ## Changelog
 
+#### 2015-10-04 v 0.4
+1. 文章内容字体调整
+2. 修复文章内容首个图片可能会和文字并列的问题
+
 #### 2015-09-30 v 0.3
 1. 固定 "Column View" 模式下文章列表的宽度，流出更多空间给文章内容
 2. 修复分享按钮被隐藏的 BUG
