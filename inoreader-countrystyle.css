@@ -82,7 +82,7 @@
   }
 
   /* 隐藏广告 */
-  .block_article_ad, .ad_title, .avs_iframe, .img_ad, #sinner_container {
+  block_article_ad, .ad_title, .avs_iframe, .img_ad, .inner_ad, .ad_footer_remove, #sinner_container {
     display: none !important;
   }
 
