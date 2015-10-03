@@ -1,14 +1,16 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("inoreader.com") {
   body {
-    font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif!important;
+    font-family:'Arial','Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei','sans-serif'!important;
 
   }
 
+  /* 将背景色改为土黄土黄的 :p  */
   .article_card, .article_title, .article_sub_title, .article_footer, .article_full_contents,.article_full_contents  {
     background-color: #F6F4EC!important;
   }
 
+  /* 调整文章详情区域的宽度、字体、字号、行距 */
   .article_content {
     font-size:16px !important;
     line-height:200%;
@@ -18,8 +20,16 @@
     font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif!important;
   }
 
+  /* 
+   处理部分图片因为 float:left 导致把文字压在右边的问题，
+   现在文本内容（p 标签）会在图片下另起一行
+  */
+  .article_content p {
+    clear: left;                       
+  }
+
   .article_title_link {
-    font-weight: bold !important;
+    font-weight: bold !important; 
     font-size:20px !important;
   }
 
@@ -31,10 +41,6 @@
     color: #9c9c9c;
   }
 
-  .article_footer_3way{
-  width:calc(100% - 740px) !important;
-}
-
   #three_way_contents {
     background-color: #F6F4EC !important;
   }
@@ -45,7 +51,7 @@
 
 
   /* 隐藏边框 */
-  div.article_tile,div.article_card.article_current,.article_card.ar,.bundle_wrap,.discover_feed {
+   div.article_tile,div.article_card.article_current,.article_card.ar,.bundle_wrap,.discover_feed {
     border: none;
   }
 
@@ -61,13 +67,18 @@
     max-width: 100% !important;
   }
 
+  /* 控制宽度 */
   .reader_pane_view_style_2{
-    width:400px!important;
+  	width:400px!important;
   }
 
   #three_way_contents{
     width:calc(100% - 740px)!important;
-    left:670px!important;
+   left:670px!important;
+  }
+
+  .article_footer_3way{
+    width:calc(100% - 740px) !important;
   }
 
   /* 隐藏广告 */
