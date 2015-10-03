@@ -3,7 +3,7 @@ inoreader-countrystyle
 
 inoreader-countrystyle 是一个针对 [InoReader](https://www.inoreader.com/) 专门为提高阅读效率而调整的自定义样式。
 
-请配合 Stylish 使用，样式下载链接: [inoreader - 乡土风](https://userstyles.org/styles/119240/inoreader)
+请配合 [Stylish](https://userstyles.org/) 浏览器插件使用，样式下载链接: [inoreader - 乡土风](https://userstyles.org/styles/119240/inoreader)
 
 
 ## 内容:
